@@ -12,9 +12,10 @@ struct ContentView: View {
         VStack {
             Text("Carnet de voyage !")
                 .font( .system(size: 40))
-            Image(systemName: "person")
+            Image(systemName: "figure.walk")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
+                .font(.system(size: 60))
         }
         .padding()
     }
