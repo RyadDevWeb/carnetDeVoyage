@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Carnet de voyage !")
+                .font( .system(size: 40))
             Image(systemName: "person")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
