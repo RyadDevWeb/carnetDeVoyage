@@ -9,18 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Carnet de voyage !")
-                .font( .system(size: 40))
-            Image(systemName: "figure.walk")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-                .font(.system(size: 60))
-        }
-        .padding()
+        Text("Mon Carnet de Voyage")
+        PlaceView()
     }
 }
 
 #Preview {
     ContentView()
+    
 }
